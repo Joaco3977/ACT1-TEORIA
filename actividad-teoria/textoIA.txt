@@ -1,0 +1,21 @@
+Podrias darme el codigo de un sitio web estatico que cuente con una barra superior de navegacion que permita moverse entre diferentes secciones como:
+	1) informacion de contacto
+	2) informacion de creador del sitio
+	3) catalogo de imagenes dividido en 3 categorias: caricaturas, paisajes y animes (las imagenes estan guardadas en una carpeta /imagenes y cada una respectivamente en su categoria,
+	         como por ejemplo para caricaturas es /imagenes/caricaturas). Estas imagenes deben ser mostradas con el solo hecho de estar en la carpeta designada y todas con el mismo formato.
+		 Actualmente hay 2 imagenes en cada directorio, cada una con el nombre del directorio seguido de su numero, por ejemplo: caricaturas1, caricaturas2. 
+		 Quiero mostrar estas imagenes en cada categoria respectivamente
+	
+La barra superior de navegacion debe ser de un color negro y las imagenes deben tener todas el mismo tamaño y tener un borde con relleno de color negro.
+Todo el diseño debe ser responsive, y todo lo relacionado a css debe estar en otro documento css llamado estilosIA.css
+
+Bien, ahora quiero que en la seccion de informacion de contacto aparezca un formulario con campos para ingresar:
+	1) nombre
+	2) mail
+	3) motivo de contacto
+	4) mensaje
+y un boton que simule contactar
+
+Y en la seccion de creador del sitio que aparezca la frase:
+	Pagina WEB generada con CHATGPT por el alumno Joaquin Diez para actividad de teoria
+	Materia Proyecto de Software 2023

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <link rel="stylesheet" href="estilosIA.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#contacto">Información de Contacto</a></li>
+                <li><a href="#creador">Información del Creador</a></li>
+                <li><a href="#caricaturas">Caricaturas</a></li>
+                <li><a href="#paisajes">Paisajes</a></li>
+                <li><a href="#animes">Animes</a></li>
+                <li><a href="#enunciado">Enunciado</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="contacto">
+        <h1>Información de Contacto</h1>
+        <form action="#">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+            
+            <label for="mail">Correo Electrónico:</label>
+            <input type="email" id="mail" name="mail" required><br>
+            
+            <label for="motivo">Motivo de Contacto:</label>
+            <select id="motivo" name="motivo">
+                <option value="Consulta">Consulta</option>
+                <option value="Sugerencia">Sugerencia</option>
+                <option value="Reclamo">Reclamo</option>
+            </select><br>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea><br>
+            
+            <button type="submit">Contactar</button>
+        </form>
+    </section>
+    
+    <section id="creador">
+        <h1>Información del Creador del Sitio</h1>
+        <p>Página WEB generada con CHATGPT por el alumno Joaquín Diez para actividad de teoría.</p>
+        <p>Materia: Proyecto de Software 2023</p>
+    </section>
+    
+    <section id="caricaturas">
+        <h1>Caricaturas</h1>
+        <div class="image-gallery">
+            <!-- Muestra las imágenes de la carpeta /imagenes/caricaturas -->
+            <img src="imagenes/caricaturas/caricaturas1.jpg" alt="Caricatura 1">
+            <img src="imagenes/caricaturas/caricaturas2.jpg" alt="Caricatura 2">
+        </div>
+    </section>
+    
+    <section id="paisajes">
+        <h1>Paisajes</h1>
+        <div class="image-gallery">
+            <!-- Muestra las imágenes de la carpeta /imagenes/paisajes -->
+            <img src="imagenes/paisajes/paisajes1.jpg" alt="Paisaje 1">
+            <img src="imagenes/paisajes/paisajes2.jpg" alt="Paisaje 2">
+        </div>
+    </section>
+    
+    <section id="animes">
+        <h1>Animes</h1>
+        <div class="image-gallery">
+            <!-- Muestra las imágenes de la carpeta /imagenes/animes -->
+            <img src="imagenes/animes/animes1.jpg" alt="Anime 1">
+            <img src="imagenes/animes/animes2.jpg" alt="Anime 2">
+        </div>
+    </section>
+
+    <section id="enunciado">
+        <h1>ACTIVIDAD 1 - PROYECTO DE SOFTWARE</h1>
+        <img src="enunciado/enunciado.jpg" alt="Enunciado del Ejercicio">
+        <a href="video/video.mp4" target="_blank">Abrir video</a>
+    </section>
+</body>
+</html>
